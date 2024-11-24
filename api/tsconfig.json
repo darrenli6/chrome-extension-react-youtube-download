@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "lib": ["es5", "es6","dom"], // 指定要包含在编译中的库文件
+      "target": "es6", // 指定 ECMAScript 目标版本
+      "module": "commonjs", // 指定模块代码生成方式
+      "moduleResolution": "node", // 指定模块解析策略
+      "outDir": "./build", // 指定输出目录
+      "emitDecoratorMetadata": true, // 启用装饰器元数据的发射
+      "experimentalDecorators": true, // 启用实验性的装饰器特性
+      "sourceMap": true, // 生成相应的 .map 文件
+      "esModuleInterop": true // 启用 esModule 互操作性
+    }
+}
